@@ -1,6 +1,6 @@
 # Dynamik
 Dynamik (/dīˈnamik/) allows you to easily set your iOS device's wallpaper(s) from custom sources on Reddit.
-[View the video demo](https://youtu.be/4zlm2yrzdrQ).
+[View the video demo](https://youtu.be/_JtgyiCz_84).
 
 [![Banner](https://github.com/JeffResc/Dynamik/raw/master/_assets/Banner/Banner.png)](#)
 
