@@ -70,6 +70,10 @@
 	[HBRespringController respringAndReturnTo:[NSURL URLWithString:@"prefs:root=Dynamik"]];
 }
 
+- (void)Website_Link {
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://jeffresc.dev/"]];
+}
+
 - (void)PayPal_Donate_Link {
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://paypal.me/JeffRescignano"]];
 }
