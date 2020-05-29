@@ -29,7 +29,7 @@ Features:
 - Manually update the wallpaper if you like
 
 ## Downloading and Installing
-You can either [Download Dynamik for Free from Packix](https://repo.packix.com/package/dev.jeffresc.dynamik/), or download and install it manually using the .deb file, which can be downloaded from the [GitHub releases section](https://github.com/JeffResc/Dynamik/releases).
+You can either [Download Dynamik for Free from Packix](https://repo.packix.com/package/com.jeffresc.dynamik/), or download and install it manually using the .deb file, which can be downloaded from the [GitHub releases section](https://github.com/JeffResc/Dynamik/releases).
 
 # Advanced Usage
 ### Command Usage
