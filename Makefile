@@ -1,5 +1,5 @@
-#PACKAGE_VERSION = 1.0.0
-#DEBUG = 0
+PACKAGE_VERSION = 1.0.0
+DEBUG = 0
 ARCHS = arm64 arm64e
 include $(THEOS)/makefiles/common.mk
 INSTALL_TARGET_PROCESSES = SpringBoard

@@ -6,6 +6,8 @@ Dynamik (/dīˈnamik/) allows you to easily set your iOS device's wallpaper(s) f
 
 Compatible with iOS 11 - 13.
 
+This project is the unofficial successor of [Stellae](https://repo.packix.com/package/com.lacertosusrepo.stellae/). I've reached out to the original developer who stated they were no longer interested in maintaining the original project and that a new tweak could be made. Thank you to Lacertosus Deus for Stellae and I hope Dynamik can hold the same standards it did.
+
 Suggested Subreddits:
 - [r/EarthPorn](https://www.reddit.com/r/EarthPorn)
 - [r/SpacePorn](https://www.reddit.com/r/SpacePorn)
