@@ -61,3 +61,6 @@ dynamikcli -s earthporn -m 10 -h -p -q
 
 # Changelog
 The changelog has been moved to the [releases tab](https://github.com/JeffResc/Dynamik/releases).
+
+# Donating
+Donations are never expected, but always appreciated. You can donate [to my PayPal account](http://paypal.me/JeffRescignano).
