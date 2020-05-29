@@ -79,7 +79,7 @@
 }
 
 - (void)Packix_Depiction_Page_Link {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://repo.packix.com/package/dev.jeffresc.dynamik/"]];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://repo.packix.com/package/com.jeffresc.dynamik/"]];
 }
 
 - (void)Twitter_Profile_Link {

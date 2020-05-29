@@ -1,7 +1,7 @@
 Package: com.jeffresc.dynamik
 Name: Dynamik
 Depends: mobilesubstrate, firmware (>=11.0), ws.hbang.common (>= 1.14)
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Dynamic wallpapers of your choice from Reddit
 Maintainer: JeffResc <jeff@jeffresc.dev>
