@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>DynamikTitleCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Wallpaper Options</string>
+		</dict>
+		<dict>
+	    <key>cell</key>
+	    <string>PSLinkListCell</string>
+	    <key>default</key>
+	    <string>Lockscreen</string>
+	    <key>defaults</key>
+	    <string>com.jeffresc.dynamikprefs</string>
+	    <key>key</key>
+	    <string>wallpaperMode</string>
+	    <key>label</key>
+	    <string>Wallpaper Location</string>
+	    <key>detail</key>
+	    <string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array>
+				<string>Both</string>
+				<string>Homescreen</string>
+				<string>Lockscreen</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+			</array>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>defaults</key>
+			<string>com.jeffresc.dynamikprefs</string>
+			<key>key</key>
+			<string>parallax</string>
+			<key>label</key>
+			<string>Parallax Options</string>
+			<key>default</key>
+			<string>Parallax Disabled</string>
+			<key>validTitles</key>
+			<array>
+				<string>Parallax Disabled</string>
+				<string>Parallax Enabled</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+			</array>
+			<key>id</key>
+			<string>ModeCell</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Subreddit Settings</string>
+			<key>footerText</key>
+			<string>Enter the subreddit name only (no r/). Use the slider to set the number of hot posts to grab, it will choose a random image from one of them.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>SpacePorn</string>
+			<key>defaults</key>
+			<string>com.jeffresc.dynamikprefs</string>
+			<key>placeholder</key>
+			<string>SpacePorn</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>key</key>
+			<string>subreddit</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.jeffresc.dynamikprefs</string>
+			<key>key</key>
+			<string>nsfwFilter</string>
+			<key>label</key>
+			<string>NSFW Filter</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.jeffresc.dynamikprefs</string>
+			<key>key</key>
+			<string>highQualityFilter</string>
+			<key>label</key>
+			<string>High-Quality Filter</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<string>5</string>
+			<key>defaults</key>
+			<string>com.jeffresc.dynamikprefs</string>
+			<key>label</key>
+			<string># of Posts:</string>
+			<key>min</key>
+			<string>1</string>
+			<key>max</key>
+			<string>10</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>segementCounter</key>
+			<string>10</string>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>numberOfPostsGrabbed</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Timer</string>
+			<key>footerText</key>
+			<string>Choose what time for the wallpaper to be updated. It can take up to an hour for the wallpaper to update due to limitations. Choose a time where your deivce is usually connected to an unmetered connection. For more advanced options, see the "Advanced Use Cases" section on the package depiction page.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>defaults</key>
+			<string>com.jeffresc.dynamikprefs</string>
+			<key>key</key>
+			<string>timerEnabled</string>
+			<key>label</key>
+			<string>Set Timer Options</string>
+			<key>default</key>
+			<string>Timer Disabled</string>
+			<key>validTitles</key>
+			<array>
+				<string>Timer Disabled</string>
+				<string>Timer Enabled</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+			</array>
+			<key>id</key>
+			<string>ModeCell</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>MTimePickerCell</string>
+			<key>PostNotification</key>
+			<string>com.jeffresc.dynamikprefs-loadPrefs</string>
+			<key>height</key>
+			<real>100</real>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Actions</string>
+			<key>footerText</key>
+			<string>Select an action above to manage wallpaper actions.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openCurrentImageSource</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Open Current Wallpaper</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>updateRedditImage</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Manually Update Wallpaper</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>saveImage</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Save Wallpaper(s)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>big</key>
+			<true/>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>height</key>
+			<integer>56</integer>
+			<key>label</key>
+			<string>Jeff Rescignano</string>
+			<key>user</key>
+			<string>JeffRescignano</string>
+			<key>action</key>
+			<string>Twitter_Profile_Link</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate ❤️</string>
+			<key>action</key>
+			<string>PayPal_Donate_Link</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Source Code 📁</string>
+			<key>action</key>
+			<string>GitHub_Source_Code_Link</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Package Information ℹ️</string>
+			<key>action</key>
+			<string>Packix_Depiction_Page_Link</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Dynamik</string>
+</dict>
+</plist>
